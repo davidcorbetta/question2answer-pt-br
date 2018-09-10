@@ -14,7 +14,8 @@ RUN git clone https://github.com/amiyasahu/Donut.git \
  && git clone https://github.com/NoahY/q2a-history.git /var/www/html/qa-plugin/qa-user-history \
  && git clone https://github.com/NoahY/q2a-log-tags.git /var/www/html/qa-plugin/qa-log-tags \
  && git clone https://github.com/dunse/qa-category-email-notifications.git /var/www/html/qa-plugin/qa-email-notification \
- && git clone https://github.com/nakov/q2a-plugin-open-questions.git /var/www/html/qa-plugin/qa-questions-open
+ && git clone https://github.com/nakov/q2a-plugin-open-questions.git /var/www/html/qa-plugin/qa-questions-open \
+ && git clone https://github.com/NoahY/q2a-badges.git /var/www/html/qa-plugin/badges  
 
 WORKDIR /var/www/html/qa-lang
 RUN apt-get update \
